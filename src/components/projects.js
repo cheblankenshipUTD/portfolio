@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import ProjCard from './subcomponents/projCard';
+import ProjCard from './sub/projCard';
+import Education from './sub/education';
+import Blog from './sub/blog';
+
 
 
 class Projects extends Component {
@@ -13,6 +16,7 @@ class Projects extends Component {
     toggleCategories() {
 
 
+        {/* General Projects Page */}
         if (this.state.activeTab === 0) {
             return(
                 <div className="projects-grid">
@@ -42,16 +46,20 @@ class Projects extends Component {
                      />
 
                 </div>
-
-
-
             )
         }
+
         else if (this.state.activeTab === 1) {
             return(
-                <div><h1>DS & Algo content coming soon...</h1></div>
+                <div className="markdown-design">
+                <Blog
+                    keyword="C++"
+                    date="Dec 14th 2021"
+                />
+                </div>
             )
         }
+
         else if (this.state.activeTab === 2) {
             return(
                 <div><h1>C++ content coming soon...</h1></div>

@@ -48,6 +48,10 @@ header.mdl-layout__header.mdl-layout__header--scroll {
     width: 90%;
 }
 
+div.mdl-grid.landing-grid {
+    padding: 0;
+}
+
 .banner-text {
     width: 40%;
     height: 250px;
@@ -117,6 +121,8 @@ canvas.react-pdf__Page__canvas {
     border: 4px solid lightgray;
     margin: auto;
     margin-top: 5%;
+    width: 80% !important;
+    height: 100% !important;
 }
 
 
@@ -131,4 +137,24 @@ canvas.react-pdf__Page__canvas {
 
 
 
-/*  */
+/* Blog design */
+div.markdown-design{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: rgba(237, 237, 237, 1); */
+}
+
+/* Code highlight */
+pre {
+    background-color: rgb(183,208,223, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.markdown-design div {
+    padding: 20px;
+}

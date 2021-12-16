@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import Education from './education';
-import Experience from './experience';
+import Education from './sub/education';
+import Experience from './sub/experience';
 
 class About extends Component {
 

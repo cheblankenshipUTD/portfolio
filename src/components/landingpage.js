@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Card, CardText, CardActions, Button, CardTitle } from 'react-mdl';
-import { motion, AnimatePresence } from 'framer-motion';
 import profilePic from './../img/profile-pic.png';
-import Education from './education';
+import Education from './sub/education';
 
 class Landing extends Component {
     render() {
