@@ -3,6 +3,9 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, 
 import ProjCard from './sub/projCard';
 import Education from './sub/education';
 import Blog from './sub/blog';
+import rec_markdown from "./../markdowns/types_of_recursion.md";
+import p_markdown from "./../markdowns/p_to_p.md";
+
 
 
 
@@ -55,6 +58,7 @@ class Projects extends Component {
                 <Blog
                     keyword="C++"
                     date="Dec 14th 2021"
+                    fileName="types_of_recursion.md"
                 />
                 </div>
             )
@@ -62,24 +66,34 @@ class Projects extends Component {
 
         else if (this.state.activeTab === 2) {
             return(
-                <div><h1>C++ content coming soon...</h1></div>
+                <div className="markdown-design">
+                    <Blog
+                        keyword="C++"
+                        date="Dec 17th 2021"
+                        fileName="p_to_p.md"
+                    />
+                </div>
             )
         }
+
         else if (this.state.activeTab === 3) {
             return(
                 <div><h1>Leetcode content coming soon...</h1></div>
             )
         }
+
         else if (this.state.activeTab === 4) {
             return(
                 <div><h1>Other content coming soon...</h1></div>
             )
         }
+
         else {
             return(
                 <div><h1>This is DS & Algo</h1></div>
             )
         }
+        
     }
 
 

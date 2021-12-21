@@ -45,7 +45,7 @@ class About extends Component {
 
                 {/* Education */}
                 <Grid>
-                    <Cell col={12}  className="education-quickview" style={{"margin":0, "margin-top":"10%"}}>
+                    <Cell col={12}  className="education-quickview" style={{"margin":0, "margin-top":"10%", "margin-bottom":"10%"}}>
                         <h1>Education</h1>
                         <div className="education-grid">
                             {/* School 1 */}

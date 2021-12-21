@@ -1,36 +1,33 @@
-import React, { Component } from 'react';
-import ReactMarkdown from 'react-markdown'
+import React, { useState, useEffect, Component } from 'react';
+import Markdown from 'markdown-to-jsx'
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
-import termsFrPath from "./../../markdowns/types_of_recursion.md";
+import markDownPath from "./../../markdowns/types_of_recursion.md";
 
-class Blog extends Component {
+function Blog2(props){
 
+    const [post, setPost] = useState("");
 
-    constructor(props) {
-        super(props)
-        this.state = { terms: null }
-    }
+    useEffect(() => {
+        import(`./../../markdowns/${props.fileName}`)
+            .then(res => {
+                fetch(res.default)
+                    .then(res => res.text())
+                    .then(res => setPost(res))
+            })
+            .catch(err => console.log(err));
+    })
 
-    componentWillMount() {
-        fetch(termsFrPath).then((response) => response.text()).then((text) => {
-            this.setState({ terms: text })
-        })
-    }
-
-    render() {
-        return (
-          <div>
-            <h4>Topic: {this.props.keyword}</h4>
-            <h5>Date: {this.props.date}</h5>
-            <ReactMarkdown
-                children={this.state.terms}
-                escapeHtml={false}
-            />
-          </div>
-        )
-    }
+    return (
+        <div>
+            <h4>Topic: {props.keyword}</h4>
+            <h5>Date: {props.date}</h5>
+            <Markdown>
+                {post}
+            </Markdown>
+        </div>
+    )
 }
 
 
-export default Blog;
+export default Blog2;
