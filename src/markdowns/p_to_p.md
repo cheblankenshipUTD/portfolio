@@ -1,4 +1,4 @@
-# Pointer to pointer
+## Pointer to pointer
 
 This is a note about pointer to pointer and other ways of passing variables to the function. Since I use Python frequently,
 I had to review the C++ rules for function parameters and arguments.
@@ -7,7 +7,7 @@ I had to review the C++ rules for function parameters and arguments.
 - Pass by pointer
 - Pass by pointer-to-pointer
 
-## Pass by reference
+### Pass by reference
 When a variable is passed by reference, the argument will have the address of it's variable.
 The argument will technically be a different name version of the passed variable.
 It can be modify.
@@ -41,7 +41,7 @@ x is 100.
 
 ```
 
-## Pass by pointer
+### Pass by pointer
 This is used commonly when passing a array. In C++, when you pass an array in argument, you can see by checking the size.
 You won't get the whole array size. Only the size of the initial element size.
 You can access/modify the array by index. Array has consistant memory size for each element; hence, it can move to the
@@ -86,7 +86,7 @@ Address increasing by 4
 
 ```
 
-## Pass by pointer-to-pointer
+### Pass by pointer-to-pointer
 First time I faced using this method was during developing a singly linked list.
 For functions such as Insert(), or Delete(), I had to update the head pointer address.
 Before knowing pointer-to-pointer, I was passing the head pointer as a pointer. This is technically passed

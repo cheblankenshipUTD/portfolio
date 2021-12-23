@@ -56,7 +56,7 @@ class Projects extends Component {
             return(
                 <div className="markdown-design">
                 <Blog
-                    keyword="C++"
+                    keyword="Recursion (C++)"
                     date="Dec 14th 2021"
                     fileName="types_of_recursion.md"
                 />
@@ -68,7 +68,7 @@ class Projects extends Component {
             return(
                 <div className="markdown-design">
                     <Blog
-                        keyword="C++"
+                        keyword="C, C++"
                         date="Dec 17th 2021"
                         fileName="p_to_p.md"
                     />
@@ -78,7 +78,13 @@ class Projects extends Component {
 
         else if (this.state.activeTab === 3) {
             return(
-                <div><h1>Leetcode content coming soon...</h1></div>
+                <div className="markdown-design">
+                    <Blog
+                        keyword="Array"
+                        date="Dec 23rd 2021"
+                        fileName="leetcode_217.md"
+                    />
+                </div>
             )
         }
 
@@ -93,7 +99,7 @@ class Projects extends Component {
                 <div><h1>This is DS & Algo</h1></div>
             )
         }
-        
+
     }
 
 

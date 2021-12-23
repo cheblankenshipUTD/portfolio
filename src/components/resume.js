@@ -1,4 +1,5 @@
 import React, { Component, State } from 'react';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import { Document, Page, pdfjs } from 'react-pdf';
 
 import resumePdf from "./../img/resume.pdf";
@@ -26,6 +27,11 @@ class Resume extends Component {
 
         return(
             <div style={{"margin-bottom": "5%"}}>
+                <div  className="download-button">
+                    <Button>
+                        <a href={resumePdf} download="Che Blankenship Resume">Download</a>
+                    </Button>
+                </div>
                 <Document file={resumePdf} onLoadSuccess={this.onDocumentLoad}>
                     <Page pageNumber={1} />
                 </Document>
