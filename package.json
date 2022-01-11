@@ -1,5 +1,5 @@
 {
-  "name": "notes-app",
+  "name": "che-blankenship-portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
