@@ -1,4 +1,14 @@
-# ignore all node modules
+# dependencies
 node_modules
+
+# misc
 .DS_Store
 .DS_Store?
+.env.*
+npm-debug.log*
+yarn-error.log
+
+
+# next.js
+.next
+next.config.js
