@@ -36,7 +36,7 @@ export const Blog = ({ blogs }) => {
 }
 
 Blog.getInitialProps = async () => {
-    const res = await fetch('http://localhost:3000/api/blogs');
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/blogs`);
     const { data } = await res.json();
   
     return { blogs: data };
