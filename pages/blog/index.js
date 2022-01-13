@@ -15,7 +15,7 @@ export const Blog = ({ blogs }) => {
                         <div key={blog._id}>
                         <Card>
                             <Card.Body>
-                            <Card.Header style={{"font-weight": "bold"}}>{blog.title}</Card.Header>
+                            <Card.Header style={{"font-weight": "800"}}>{blog.title}</Card.Header>
                             <Card.Text>{blog.tags}</Card.Text>
                             <Card.Text>{moment(blog.date).format('YYYY-MM-DD')}</Card.Text>
                             <Card.Text>{blog.description}</Card.Text>

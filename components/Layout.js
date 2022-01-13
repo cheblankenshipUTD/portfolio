@@ -8,6 +8,9 @@ const Layout = ({ children }) => (
     <>
         <Head>
             <title>Che B Portfolio</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
         </Head>
         <DefaultSeo
             titleTemplate="%s - Che Blankenship"
@@ -15,7 +18,7 @@ const Layout = ({ children }) => (
                 type: 'website',
                 locale: 'en_IE',
                 description: 'The personal website for Che Blankenship.',
-                site_name: 'Che Blankenshio | cheblankenship.com',
+                site_name: 'Che Blankenship | cheblankenship.com',
                 images: [],
             }}
         />
