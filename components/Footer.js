@@ -6,13 +6,13 @@ const Footer = () => (
     <footer className="footer-wrapper">
         <Row className='footer-email-name'>
             <Col ms={1}>
-                <p>che.blankenship@utdallas.edu | 2022 | v.1.0.3</p>
+                <p>che.blankenship@utdallas.edu | 2022 | v.1.0.4</p>
             </Col>
         </Row>
         <Row className='footer-social-links'>
         <Col ms={1}>
                 {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/che-b-jp-us/" rel="noopener noreferrer" target="_blank">
+                <a href="https://www.linkedin.com/in/cheblankenship/" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-linkedin" aria-hidden="true" />
                 </a>
                 {/* Github */}
@@ -20,7 +20,7 @@ const Footer = () => (
                     <i className="fa fa-github" aria-hidden="true" />
                 </a>
                 {/* Email */}
-                <a href="https://github.com/cheblankenshipUTD" rel="noopener noreferrer" target="_blank">
+                <a href="mailto:che.blankenship@utdallas.edu?subject=Email from portfolio&body=Sending message from portfolio email link">
                     <i className="fa fa-envelope" aria-hidden="true" />
                 </a>
             </Col>

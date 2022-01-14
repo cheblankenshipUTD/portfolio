@@ -24,7 +24,7 @@ const Index = () => {
                   <p/>
                   <div className="social-links">
                       {/* LinkedIn */}
-                      <a href="https://www.linkedin.com/in/che-b-jp-us/" rel="noopener noreferrer" target="_blank">
+                      <a href="https://www.linkedin.com/in/cheblankenship/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-linkedin" aria-hidden="true" />
                       </a>
                       {/* Github */}
