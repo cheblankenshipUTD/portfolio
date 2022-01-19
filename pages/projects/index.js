@@ -9,7 +9,7 @@ const Project = () => {
         {
             title: "Maze Game",
             description: "Maze game implemented in MIPS Assembly",
-            url: "https://github.com/cheblankenshipUTD/"
+            url: "https://github.com/cheblankenshipUTD/maze-game"
         },
         {
             title: "Location Share App",
