@@ -36,8 +36,8 @@ const Project = () => {
                         <Card.Img variant="top" src="./images/create-project.jpeg" />
                         <Card.Body>
                             <Card.Title style={{"font-weight": "bold"}}>{project.title}</Card.Title>
-                            <Card.Text>{project.description}</Card.Text>
-                            <Button variant="dark" href={project.url} target="_blank" style={{"color": "white"}}>Github</Button>
+                            <Card.Text style={{"margin": "0"}}>{project.description}</Card.Text>
+                            <Button variant="dark" href={project.url} target="_blank" style={{"color": "white", "margin": "0", "marginTop": "10px"}}>Github</Button>
                         </Card.Body>
                         </Card>
                         </div>
