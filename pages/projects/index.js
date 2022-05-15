@@ -12,14 +12,14 @@ const Project = () => {
             url: "https://github.com/cheblankenshipUTD/maze-game"
         },
         {
-            title: "Location Share App",
-            description: "Share real-time location on a google map",
-            url: "https://github.com/cheblankenshipUTD/Location-Share-App"
+            title: "Library database system",
+            description: "UT Dallas Database Systems Group Project",
+            url: "https://github.com/cheblankenshipUTD/CS-4347-Database-Systems"
         },
         {
-            title: "Face Detect App",
-            description: "Detect face and eye blinks using OpenCV",
-            url: "https://github.com/cheblankenshipUTD/Eye-Blink-Analysis"
+            title: "Portfolio",
+            description: "React/Next.js portfolio",
+            url: "https://github.com/cheblankenshipUTD/portfolio"
         }
     ]
 
@@ -46,7 +46,7 @@ const Project = () => {
                 })}
                 </Row>
             </Container>
-    
+
         </div>
     )
 }

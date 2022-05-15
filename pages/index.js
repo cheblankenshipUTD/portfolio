@@ -49,13 +49,13 @@ const Index = () => {
                 endYear="2020"
                 schoolName="Auction Community College"
                 location="Austin, TX"
-                schoolDescription="B.S Computer Science"
+                schoolDescription=""
               />
               </Col>
               <Col md={6}>
               <Education
                 startYear="2020"
-                endYear="2023"
+                endYear="May 2023"
                 schoolName="The University of Texas at Dallas"
                 location="Richardson, TX"
                 schoolDescription="B.S Computer Science"
@@ -88,7 +88,7 @@ const Index = () => {
             <Col md={4}>
             <Experience
               startYear="2021"
-              endYear="Current"
+              endYear="2022"
               jobName="Spatial Datalyst"
               location="Richardson, TX"
               jobDescription="Software Engineer Intern"
