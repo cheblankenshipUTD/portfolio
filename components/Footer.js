@@ -6,7 +6,7 @@ const Footer = () => (
     <footer className="footer-wrapper">
         <Row className='footer-email-name'>
             <Col ms={1}>
-                <p>che.blankenship@utdallas.edu | 2022 | v.1.0.5</p>
+                <p>che.blankenship@utdallas.edu | 2022 | v.1.0.6</p>
             </Col>
         </Row>
         <Row className='footer-social-links'>

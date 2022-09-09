@@ -47,7 +47,7 @@ const Index = () => {
               <Education
                 startYear="2018"
                 endYear="2020"
-                schoolName="Auction Community College"
+                schoolName="Austin Community College"
                 location="Austin, TX"
                 schoolDescription=""
               />
