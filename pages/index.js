@@ -18,9 +18,9 @@ const Index = () => {
             <Col md={6}>
               {/* Greeting */}
               <div className="banner-text">
-                  <h1>Hello, I'm Che.</h1>
+                  <h1>Hi, I'm Che.</h1>
                   <p/>
-                  <h3>I'm a Computer Science student at <br /> The University of Texas at Dallas.</h3>
+                  <h3>Software Engineer at LM</h3>
                   <p/>
                   <div className="social-links">
                       {/* LinkedIn */}
@@ -43,16 +43,7 @@ const Index = () => {
           <div className='education-wrapper'>
             <h2 style={{"text-decoration": "underline"}}>Education</h2>
             <Row style={{"margin-top": "50px"}}>
-              <Col md={6}>
-              <Education
-                startYear="2018"
-                endYear="2020"
-                schoolName="Austin Community College"
-                location="Austin, TX"
-                schoolDescription=""
-              />
-              </Col>
-              <Col md={6}>
+              <Col md={6} style={{"margin-top": "25px", "margin-bottom": "25px"}}>
               <Education
                 startYear="2020"
                 endYear="May 2023"
@@ -61,22 +52,40 @@ const Index = () => {
                 schoolDescription="B.S Computer Science"
               />
               </Col>
+              <Col md={6} style={{"margin-top": "25px", "margin-bottom": "25px"}}>
+              <Education
+                startYear="2018"
+                endYear="2020"
+                schoolName="Austin Community College"
+                location="Austin, TX"
+                schoolDescription=""
+              />
+              </Col>
             </Row>
           </div>
           {/* Experience */}
           <div className='experience-wrapper'>
           <h2 style={{"text-decoration": "underline"}}>Experience</h2>
-          <Row style={{"margin-top": "50px"}}>
-            <Col md={4}>
+          <Row style={{"margin-top": "25px"}}>
+          <Col md={3} style={{"margin-top": "25px", "margin-bottom": "25px"}}>
             <Experience
-              startYear="2017"
-              endYear="2018"
-              jobName="AlphaNodus"
-              location="Austin, TX"
+              startYear="2023"
+              endYear="Current"
+              jobName="Lockheed Martin"
+              location="Fort Worth, TX"
+              jobDescription="Software Engineer Asc."
+            />
+            </Col>
+            <Col md={3} style={{"margin-top": "25px", "margin-bottom": "25px"}}>
+            <Experience
+              startYear="2021"
+              endYear="2022"
+              jobName="Spatial Datalyst"
+              location="Richardson, TX"
               jobDescription="Software Engineer Intern"
             />
             </Col>
-            <Col md={4}>
+            <Col md={3} style={{"margin-top": "25px", "margin-bottom": "25px"}}>
             <Experience
               startYear="2018"
               endYear="2019"
@@ -85,12 +94,12 @@ const Index = () => {
               jobDescription="TA for College Algebra (Math 1316)"
             />
             </Col>
-            <Col md={4}>
+            <Col md={3} style={{"margin-top": "25px", "margin-bottom": "25px"}}>
             <Experience
-              startYear="2021"
-              endYear="2022"
-              jobName="Spatial Datalyst"
-              location="Richardson, TX"
+              startYear="2017"
+              endYear="2018"
+              jobName="AlphaNodus"
+              location="Austin, TX"
               jobDescription="Software Engineer Intern"
             />
             </Col>

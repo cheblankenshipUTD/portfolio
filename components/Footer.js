@@ -4,11 +4,6 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 const Footer = () => (
     <footer className="footer-wrapper">
-        <Row className='footer-email-name'>
-            <Col ms={1}>
-                <p>che.blankenship@utdallas.edu | 2022 | v.1.0.7</p>
-            </Col>
-        </Row>
         <Row className='footer-social-links'>
         <Col ms={1}>
                 {/* LinkedIn */}
@@ -23,6 +18,11 @@ const Footer = () => (
                 <a href="mailto:che.blankenship@utdallas.edu?subject=Email from portfolio&body=Sending message from portfolio email link">
                     <i className="fa fa-envelope" aria-hidden="true" />
                 </a>
+            </Col>
+        </Row>
+        <Row className='footer-email-name'>
+            <Col ms={1}>
+                <p>2024 | v.1.0.8</p>
             </Col>
         </Row>
     </footer>
