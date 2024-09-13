@@ -22,7 +22,7 @@ const Footer = () => (
         </Row>
         <Row className='footer-email-name'>
             <Col ms={1}>
-                <p>2024 | v.1.0.8</p>
+                <p>2024 | v.1.0.9</p>
             </Col>
         </Row>
     </footer>

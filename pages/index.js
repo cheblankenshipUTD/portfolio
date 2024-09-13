@@ -82,7 +82,7 @@ const Index = () => {
               endYear="2022"
               jobName="Spatial Datalyst"
               location="Richardson, TX"
-              jobDescription="Software Engineer Intern"
+              jobDescription="Full Stack Developer"
             />
             </Col>
             <Col md={3} style={{"margin-top": "25px", "margin-bottom": "25px"}}>

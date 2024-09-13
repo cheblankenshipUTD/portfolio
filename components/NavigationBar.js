@@ -15,9 +15,9 @@ const NavigationBar = () => (
         <Link href="/blog" passHref>
           <Nav.Link>Blog</Nav.Link>
         </Link>
-        <Link href="/resume" passHref>
+        {/* <Link href="/resume" passHref>
           <Nav.Link>Resume</Nav.Link>
-        </Link>
+        </Link> */}
       </Nav>
     </Container>
   </Navbar>
